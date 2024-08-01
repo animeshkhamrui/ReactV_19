@@ -1,9 +1,11 @@
+import UseIdHook from "./Component/Hooks/UseIdHook/UseIdHook";
 import Parent from "./Component/prop-driling/Parent";
 
 function App() {
   return (
     <div>
-      <Parent />
+      {/* <Parent /> */}
+      <UseIdHook />
     </div>
   );
 }
